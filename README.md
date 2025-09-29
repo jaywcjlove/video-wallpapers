@@ -37,6 +37,6 @@ Video Wallpapers
 
 This repository contains some of my favorite video wallpapers, shared upon user request. All videos are for personal sharing and appreciation only, with no commercial use. As the original download sources are no longer available, please contact me if any copyright issues arise, and I will promptly remove the content. If you have interesting free video wallpapers, you are welcome to share them here by placing them in the videos directory.
 
-![](./gifs/matrix-code-rain.gif)
+[![](./gifs/matrix-code-rain.gif)](./videos/matrix-code-rain.mp4)
 
-![](./gifs/matrix-raining-particles.gif)
+[![](./gifs/matrix-raining-particles.gif)](./videos/matrix-raining-particles.mp4)
