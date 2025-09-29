@@ -1,0 +1,19 @@
+.DS_Store
+.cache
+.vscode
+.idea
+.env
+
+*.mpassword
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
