@@ -34,6 +34,7 @@ func resizeImage(_ image: CGImage, maxWidth: CGFloat) -> CGImage? {
 }
 
 func generateGIF(from videoURL: URL, frameCount: Int = 12, maxWidth: CGFloat = 500, outputURL: URL) async {
+    print("正在处理视频: \(videoURL.lastPathComponent)")
     let asset = AVURLAsset(url: videoURL)
     let generator = AVAssetImageGenerator(asset: asset)
     generator.appliesPreferredTrackTransform = true
@@ -93,19 +94,33 @@ func generateGIF(from videoURL: URL, frameCount: Int = 12, maxWidth: CGFloat = 5
     }
 
     let destination = CGImageDestinationCreateWithURL(outputURL as CFURL, UTType.gif.identifier as CFString, images.count, nil)!
+    
     // 减少帧延迟时间以获得更流畅的GIF动画效果
-    let frameProperties = [kCGImagePropertyGIFDictionary: [kCGImagePropertyGIFDelayTime: 0.12]]
-    let gifProperties = [kCGImagePropertyGIFDictionary: [kCGImagePropertyGIFLoopCount: 0]]
+    let frameProperties: [String: Any] = [
+        kCGImagePropertyGIFDictionary as String: [
+            kCGImagePropertyGIFDelayTime as String: 0.12
+        ]
+    ]
+    
+    // 设置为无限循环 (0 = 无限循环)
+    let gifProperties: [String: Any] = [
+        kCGImagePropertyGIFDictionary as String: [
+            kCGImagePropertyGIFLoopCount as String: 0
+        ]
+    ]
 
+    // 首先设置全局GIF属性
+    CGImageDestinationSetProperties(destination, gifProperties as CFDictionary)
+    
     for img in images {
         CGImageDestinationAddImage(destination, img, frameProperties as CFDictionary)
     }
-    CGImageDestinationSetProperties(destination, gifProperties as CFDictionary)
 
     if CGImageDestinationFinalize(destination) {
-        print("GIF created: \(outputURL.path)")
+        print("✅ GIF创建成功 (无限循环): \(outputURL.path)")
+        print("   帧数: \(images.count), 帧延迟: 0.12秒")
     } else {
-        print("Failed to create GIF: \(outputURL.path)")
+        print("❌ GIF创建失败: \(outputURL.path)")
     }
 }
 
