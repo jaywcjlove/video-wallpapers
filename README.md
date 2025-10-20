@@ -40,3 +40,5 @@ This repository contains some of my favorite video wallpapers, shared upon user 
 [![](./gifs/matrix-code-rain.gif)](./videos/matrix-code-rain.mp4)
 
 [![](./gifs/matrix-raining-particles.gif)](./videos/matrix-raining-particles.mp4)
+
+[![](./gifs/rose-with-water.gif)](https://github.com/jaywcjlove/video-wallpapers/releases/download/v1.0.1/rose-with-water.mp4)
