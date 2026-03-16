@@ -44,8 +44,8 @@ Video Wallpapers
 
 This repository contains some of my favorite video wallpapers, shared upon user request. All videos are for personal sharing and appreciation only, with no commercial use. As the original download sources are no longer available, please contact me if any copyright issues arise, and I will promptly remove the content. If you have interesting free video wallpapers, you are welcome to share them here by placing them in the videos directory.
 
-[![](./gifs/matrix-code-rain.gif)](./videos/matrix-code-rain.mp4)
+[![matrix code rain](./gifs/matrix-code-rain.gif)](./videos/matrix-code-rain.mp4)
 
-[![](./gifs/matrix-raining-particles.gif)](./videos/matrix-raining-particles.mp4)
+[![matrix raining particles](./gifs/matrix-raining-particles.gif)](./videos/matrix-raining-particles.mp4)
 
-[![](./gifs/rose-with-water.gif)](https://github.com/jaywcjlove/video-wallpapers/releases/download/v1.0.1/rose-with-water.mp4)
+[![rose with water](./gifs/rose-with-water.gif)](https://github.com/jaywcjlove/video-wallpapers/releases/download/v1.0.1/rose-with-water.mp4)
