@@ -1,6 +1,8 @@
 <div markdown="1">
   <sup>Using <a href="https://wangchujiang.com/#/app" target="_blank">my app</a> is also a way to <a href="https://wangchujiang.com/#/sponsor" target="_blank">support</a> me:</sup>
   <br>
+  <a target="_blank" href="https://apps.apple.com/app/6758053530" title="Scap: Screenshot & Markup Edit for macOS"><img alt="Scap: Screenshot & Markup Edit" height="52" width="52" src="https://wangchujiang.com/appicon/scap.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6757317079" title="Screen Test for macOS"><img alt="Screen Test" height="52" width="52" src="https://wangchujiang.com/appicon/screen-test.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/Deskmark/6755948110" title="Deskmark for macOS"><img alt="Deskmark" height="52" width="52" src="https://wangchujiang.com/appicon/deskmark.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/Keyzer/6500434773" title="Keyzer for macOS"><img alt="Keyzer" height="52" width="52" src="https://wangchujiang.com/appicon/keyzer.png"></a>
   <a target="_blank" href="https://github.com/jaywcjlove/vidwall-hub" title="Vidwall Hub for macOS"><img alt="Vidwall Hub" height="52" width="52" src="https://wangchujiang.com/appicon/vidwall-hub.png"></a>
@@ -36,6 +38,9 @@
 
 Video Wallpapers
 ===
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
 
 This repository contains some of my favorite video wallpapers, shared upon user request. All videos are for personal sharing and appreciation only, with no commercial use. As the original download sources are no longer available, please contact me if any copyright issues arise, and I will promptly remove the content. If you have interesting free video wallpapers, you are welcome to share them here by placing them in the videos directory.
 
